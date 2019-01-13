@@ -1,0 +1,36 @@
+app_url: http://localhost:59509/
+scanSummary_url: http://localhost:5501
+pageTitle: LinnworksTest
+
+category_web:
+    newCategoryName: New Test Category
+    editedCategoryName: Edited Test Category
+
+
+category_api:
+    newCategoryId: d7a0e59f-40ab-49aa-acbc-08d67232c8ef
+    newCategoryName: New API Category
+    editedCategoryName: Edited API Category
+
+
+user_account:
+   emailAddress: sarveshshrivastava@xyz.com
+   token: bccf905c-6592-40f2-8db1-c976791fa40a
+
+
+api_endpoint:
+   loginAuth: http://localhost:59509/api/Auth/Login
+   categoryIndex: http://localhost:59509/api/Category/Index
+   categoryById: http://localhost:59509/api/Category/Details
+   createNewCategory: http://localhost:59509/api/Category/Create
+   deleteCategory: http://localhost:59509/api/Category/Delete
+
+test_category:
+     id: 50f7ddaa-5de4-4c30-2349-08d67473747a
+     name: Category 1
+     name2: Category 2
+     name3: Category 3
+email:
+    send: no
+    recepients: 
+      recepient1: sarveshshrivastava@xyz.com

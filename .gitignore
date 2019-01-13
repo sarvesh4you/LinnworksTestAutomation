@@ -1,0 +1,7 @@
+/.git/
+/.vs/
+Linnworks_Test_Automation/screenshots/**
+Linnworks_Test_Automation/bin/**
+Linnworks_Test_Automation/obj/**
+TestResult.xml
+TestResult.html
