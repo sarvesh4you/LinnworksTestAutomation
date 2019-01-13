@@ -154,6 +154,7 @@
     <Compile Include="test\elements\com.linnworks.automation.getpageobjects\BasePage.cs" />
     <Compile Include="test\elements\com.linnworks.automation.getpageobjects\GetPage.cs" />
     <Compile Include="test\elements\com.linnworks.automation.reports\EmailResults.cs" />
+    <Compile Include="test\elements\com.linnworks.automation.tests\Linnworks_MSSQL_Database_Integration_Tests.cs" />
     <Compile Include="test\elements\com.linnworks.automation.tests\Linnworks_Back_End_Tests.cs" />
     <Compile Include="test\elements\com.linnworks.automation.tests\Linnworks_Front_End_Tests.cs" />
     <Compile Include="test\elements\com.linnworks.automation.utils\ConfigFileReader.cs" />

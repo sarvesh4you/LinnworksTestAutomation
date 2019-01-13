@@ -57,11 +57,11 @@ namespace LinnworksTests
             client.CookieContainer = _cookieJar;
             request = new RestRequest(Method.GET);
             response = client.Execute(request);
-           // System.Windows.MessageBox.Show(response.Content);
-            JObject json = JObject.Parse(response.Content);
-            Assert.IsTrue(((String)json[0]["categoryName"]).Equals(YamlReader.getData("est_category.name2")), "ASSERTION FAILED : Category name does not contain in response.");
-            Assert.IsTrue(((String)json[1]["categoryName"]).Equals(YamlReader.getData("est_category.name3")), "ASSERTION FAILED : Category name does not contain in response.");
-            Assert.IsTrue(((String)json[2]["categoryName"]).Equals(YamlReader.getData("est_category.name")), "ASSERTION FAILED : Category name does not contain in response.");
+            // System.Windows.MessageBox.Show(response.Content);
+            //JObject json = JObject.Parse(response.Content);
+            Assert.IsTrue((response.Content).Contains(YamlReader.getData("test_category.name2")), "ASSERTION FAILED : Category name does not contain in response.");
+            Assert.IsTrue((response.Content).Contains(YamlReader.getData("test_category.name3")), "ASSERTION FAILED : Category name does not contain in response.");
+            Assert.IsTrue((response.Content).Contains(YamlReader.getData("test_category.name")), "ASSERTION FAILED : Category name does not contain in response.");
             logMessage("ASSERTION PASSED : User is able to fetch all the categories through API.");
             return (int)response.StatusCode;
         }
