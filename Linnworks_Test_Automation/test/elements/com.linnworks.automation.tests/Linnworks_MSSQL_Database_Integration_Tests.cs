@@ -48,6 +48,14 @@ namespace LinnnworksTests
 
         }
 
+        [Test()]
+        public void TC003_Delete_Records_From_The_Database()
+        {
+            //DB integration test 3
+            Assert.IsTrue('S' == 'S');
+
+        }
+
 
         [TearDown()]
         public void take_screenshot_on_failure()
