@@ -36,7 +36,7 @@ namespace LinnnworksTests
         public void TC001_Add_Records_Into_The_Database()
         {
             //DB integration test 1 
-            Assert.IsTrue('S'=='S');
+            Assert.IsTrue('S'=='R');
    
         }
 
