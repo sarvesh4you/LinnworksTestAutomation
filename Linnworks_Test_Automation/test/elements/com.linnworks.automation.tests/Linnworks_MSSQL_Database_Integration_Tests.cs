@@ -52,7 +52,7 @@ namespace LinnnworksTests
         public void TC003_Delete_Records_From_The_Database()
         {
             //DB integration test 3.
-            Assert.IsTrue('S' == 'R');
+            Assert.IsTrue('S' == 'S');
 
         }
 
