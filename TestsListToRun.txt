@@ -1,4 +1,2 @@
-LinnnworksTests.LinnworksFrontEndTests
-LinnnworksTests.LinnworksBackEndTests
 LinnnworksTests.LinnworksMSSQLDatabaseIntegrationTests
 LinnnworksTests.EmailResults
