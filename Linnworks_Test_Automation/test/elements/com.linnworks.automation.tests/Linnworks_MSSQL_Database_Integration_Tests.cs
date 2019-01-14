@@ -44,7 +44,7 @@ namespace LinnnworksTests
         public void TC002_Fetch_Records_From_The_Database()
         {
             //DB integration test 2.
-            Assert.IsTrue('S' == 'S');
+            Assert.IsTrue('S' == 'R');
 
         }
 
