@@ -26,7 +26,7 @@ api_endpoint:
    deleteCategory: http://localhost:59509/api/Category/Delete
 
 test_category:
-     id: 50f7ddaa-5de4-4c30-2349-08d67473747a
+     id: d7a0e59f-40ab-49aa-acbc-08d67232c8ef
      name: Category 1
      name2: Category 2
      name3: Category 3
