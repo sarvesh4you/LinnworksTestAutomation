@@ -73,8 +73,11 @@ namespace LinnworksTests
             client.CookieContainer = _cookieJar;
             request = new RestRequest(Method.GET);
             response = client.Execute(request);
-            JObject json = JObject.Parse(response.Content);
-            Assert.IsTrue(((String)json["categoryName"]).Equals(categoryName), "ASSERTION FAILED : Category name does not contain in response.");
+            // JObject json = JObject.Parse(response.Content);
+            System.Console.WriteLine(response.Content);
+            System.Console.WriteLine(categoryName);
+            Assert.IsTrue((response.Content).Contains(categoryName), "ASSERTION FAILED : Category name does not contain in response.");
+            
             logMessage("ASSERTION PASSED : Category name contains in response.");
             return (int)response.StatusCode;
         }
